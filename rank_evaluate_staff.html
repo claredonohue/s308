@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Staff Evaluation Page</title>
+    <style>
+        body{
+            
+            background-color: #a90533;
+        }
+        header{
+            background-color: #a90533;
+            color: whitesmoke;
+            padding-left: 10pt;
+        }
+    
+        nav{
+            border-color: black;
+            background-color: #EDEBEB;
+            border-style: solid;
+            margin: 5pt;
+        }
+        
+        main{
+            background-color: #edebeb;
+            border-color: black;
+            border-style: solid;
+            font-size: 18pt;
+           
+        }
+        
+        footer{
+            background-color: #a90533;
+            color: whitesmoke;
+            text-align: center;
+        }
+        
+        h1{
+            margin-bottom: 0pt;
+        }
+        
+        p{
+            margin: 5pt;
+         
+        }
+        .paragraph{
+            opacity: 1;
+        }
+        
+        ul{
+            background-color: #edebeb;
+            padding: 25px;
+            display: inline-block;
+        }
+       
+    </style> 
+</head>
+<body>
+<header>
+   
+    <h1><img src="Pictures/indiana_hoosiers_football.png" width = "60 pt"> International House of Studies (IHOS)</h1> 
+</header>
+
+<nav>
+    <p> <a href="">Student</a> | <a href="">Staff</a> | <a href="">Faculty</a> | <a href="">OIS</a> | <a href="">Evaluations</a></p>
+</nav>   
+
+   <main>
+            <h2>Staff Evaluation</h2>
+            
+            <p>Hello! Please enter your information, then rank and evaluate the staff that accompanied you on your trip.</p>
+            
+  <fieldset>
+            <legend>Professor Info</legend>
+            
+            <label for="firstname">First Name: </label>
+            <input type="text" name="firstname" id="firstname" required><br>
+        
+            <label for="lastname">Last Name: </label>
+            <input type="text" name="lastname" id="lastname" required><br>
+        
+            <label for="email">Email: </label>
+            <input type="text" name="email" id="email"><br>      
+            
+            <label for="facultyid">Faculty ID: </label>
+            <input type="text" name="facultyid" id="facultyid"><br>
+  </fieldset>
+  
+  <fieldset>
+           <legend>Staff Evaluation</legend>
+      
+            <label for="country">Select Trip: </label>
+            <select name="country" id="country">
+            <option></option>
+            <option value="Madagascar">Madagascar</option>
+            <option value="Nepal">Nepal</option>
+            <option value="Finland">Finland</option>
+            <option value="Bolivia">Bolivia</option>
+            <option value="Indonesia">Indonesia</option>
+            <option value="Canada">Canada</option>
+            <option value="Malta">Malta</option>
+            </select><br>
+      
+            <label for="stafffirstname">Staff First Name: </label>
+            <input type="text" name="stafffirstname" id="stafffirstname" required><br>
+        
+            <label for="stafflastname">Staff Last Name: </label>
+            <input type="text" name="stafflastname" id="stafflastname" required><br>
+      
+            <label for="rating">Rating (1-5): </label>
+            <select name="rating" id="rating">
+            <option></option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            </select><br>
+      
+            <label for="comments">Additional Comments: </label>
+            <textarea name="comments" id="comments"></textarea><br>
+
+  </fieldset>
+       
+    
+    <input class="button" type="submit" name="submit" id="submit" value="Submit">
+               
+  </main>
+    
+<footer>
+    <p><a href="">Address</a> | <a href="">Phone Number</a> | <a href="">Email</a></p>
+</footer>    
+</body>
+</html>

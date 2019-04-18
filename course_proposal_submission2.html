@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Designing Designs</title>
+   <link rel="stylesheet" href="Regular.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+    
+<body>
+<div class="container">
+<header class="row">
+  <div class="col-sx-12 col-sm-12 col-md-12 col-lg-12">
+    <h1><img src="Pictures/indiana_hoosiers_football.png" width = "60"> International House of Studies (IHOS)</h1> 
+    </div>
+</header>
+<div class="col-sx-12 col-sm-11 col-md-9 col-lg-7">
+<nav class="NAVBAR NAVBAr-default">
+<div class = "navbar-header">
+<button class="navbar-toggle" data-toggle="collapse" data-target="#myMenu">
+<span class = "icon-bar"></span>
+    <span class = "icon-bar"></span>
+    <span class = "icon-bar"></span>
+    </button>
+    
+    </div>
+  <div class="collaps navbar-collapse" id="myMenu">
+    <ul class="nav navbar-nav">
+         <li> <a href="mark1.html">Home</a></li>
+       <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Student  <span class="caret"></span>
+            </a>
+        <ul class = "dropdown-menu">
+            <li> <a href="Pictures/Globe.png">Student</a></li>
+        <li> <a href="template.html">Faculty</a></li>
+        <li> <a href="mark1.html">Staff</a></li>
+        <li> <a href="Pictures/Globe.png">OIS</a></li>
+            </ul>
+        </li> <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Faculty  <span class="caret"></span>
+            </a>
+        <ul class = "dropdown-menu">
+           <li> <a href="Pictures/Globe.png">Student</a></li>
+        <li> <a href="template.html">Faculty</a></li>
+        <li> <a href="mark1.html">Staff</a></li>
+        <li> <a href="Pictures/Globe.png">OIS</a></li>
+            </ul>
+        </li> <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Staff  <span class="caret"></span>
+            </a>
+        <ul class = "dropdown-menu">
+            <li> <a href="Pictures/Globe.png">Student</a></li>
+        <li> <a href="template.html">Faculty</a></li>
+        <li> <a href="mark1.html">Staff</a></li>
+        <li> <a href="Pictures/Globe.png">OIS</a></li>
+            </ul>
+        </li> <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">OIS  <span class="caret"></span>
+            </a>
+        <ul class = "dropdown-menu">
+            <li> <a href="Pictures/Globe.png">Student</a></li>
+        <li> <a href="template.html">Faculty</a></li>
+        <li> <a href="mark1.html">Staff</a></li>
+        <li> <a href="Pictures/Globe.png">OIS</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Evaluators  <span class="caret"></span>
+            </a>
+        <ul class = "dropdown-menu">
+            <li> <a href="Pictures/Globe.png">Student</a></li>
+        <li> <a href="template.html">Faculty</a></li>
+        <li> <a href="mark1.html">Staff</a></li>
+        <li> <a href="Pictures/Globe.png">OIS</a></li>
+            </ul>
+        </li>
+      </ul>
+    </div>  
+    
+   
+</nav> 
+</div>
+<div class="col-sx-12 col-sm-12 col-md-12 col-lg-12">
+    <main class="row">
+        
+        
+          <h2>Course Proposal Submission</h2>
+            
+            <p>Hello! Please add your proposed course information and submit below</p>
+            
+  <fieldset>
+            <legend>Professor Info</legend>
+            
+            <label for="firstname">First Name: </label>
+            <input type="text" name="firstname" id="firstname" required><br>
+        
+            <label for="lastname">Last Name: </label>
+            <input type="text" name="lastname" id="lastname" required><br>
+        
+            <label for="email">Email: </label>
+            <input type="text" name="email" id="email"><br>      
+            
+            <label for="facultyid">Faculty ID: </label>
+            <input type="text" name="facultyid" id="facultyid"><br>
+  </fieldset>
+  
+  <fieldset>
+            <legend>Course Info</legend>
+            
+            <label for="country">Proposed Country: </label>
+            <input type="text" name="country" id="country" required><br>
+      
+            <label for="numberofdays">Trip Duration (Days): </label>
+            <select name="numberofdays" id="numberofdays">
+            <option></option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            </select><br>
+      
+            <label for="subject">Course Subject: </label>
+            <select name="subject" id="subject">
+            <option></option>
+            <option value="Accounting">Accounting</option>
+            <option value="Finance">Finance</option>
+            <option value="Marketing">Marketing</option>
+            <option value="Sales">Sales</option>
+            <option value="Information Systems">Information Systems</option>
+            <option value="Law & Ethics">Law & Ethics</option>
+            <option value="Pubilc Policy">Pubilc Policy</option>
+            </select><br>
+      
+            <label for="itinerary">Itinerary: </label>
+            <textarea name="itinerary" id="itinerary"></textarea><br>
+  </fieldset>
+       
+    
+    <input class="button" type="submit" name="submit" id="submit" value="Submit">
+        
+        
+    </main>
+    </div>
+<footer class="row">
+    <div class="col-sx-12 col-sm-12 col-md-12 col-lg-12">
+    <p class="footer">1600 Pennsylvania Ave NW, Washington, DC 20500 | (555) 867-5309 | hootie@blowfish.com</p>
+    </div>
+</footer> 
+    </div>                                                            
+</body>
+</html>

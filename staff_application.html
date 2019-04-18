@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Staff Application Page</title>
+    <style>
+        body{
+            
+            background-color: #a90533;
+        }
+        header{
+            background-color: #a90533;
+            color: whitesmoke;
+            padding-left: 10pt;
+        }
+    
+        nav{
+            border-color: black;
+            background-color: #EDEBEB;
+            border-style: solid;
+            margin: 5pt;
+        }
+        
+        main{
+            background-color: #edebeb;
+            border-color: black;
+            border-style: solid;
+            font-size: 18pt;
+           
+        }
+        
+        footer{
+            background-color: #a90533;
+            color: whitesmoke;
+            text-align: center;
+        }
+        
+        h1{
+            margin-bottom: 0pt;
+        }
+        
+        p{
+            margin: 5pt;
+         
+        }
+        .paragraph{
+            opacity: 1;
+        }
+        
+        ul{
+            background-color: #edebeb;
+            padding: 25px;
+            display: inline-block;
+        }
+       
+    </style> 
+</head>
+<body>
+<header>
+   
+    <h1><img src="Pictures/indiana_hoosiers_football.png" width = "60 pt"> International House of Studies (IHOS)</h1> 
+</header>
+
+<nav>
+    <p> <a href="">Student</a> | <a href="">Staff</a> | <a href="">Faculty</a> | <a href="">OIS</a> | <a href="">Evaluations</a></p>
+</nav>   
+
+   <main>
+            <h2>Staff Application</h2>
+            
+            <p>Hello! Please add your personal information and submit the application below.</p>
+            
+  <fieldset>
+            <legend>Staff Info</legend>
+            
+            <label for="firstname">First Name: </label>
+            <input type="text" name="firstname" id="firstname" required><br>
+        
+            <label for="lastname">Last Name: </label>
+            <input type="text" name="lastname" id="lastname" required><br>
+        
+            <label for="email">Email: </label>
+            <input type="text" name="email" id="email"><br>      
+            
+            <label for="staffid">Staff ID: </label>
+            <input type="text" name="staffid" id="staffid"><br>
+  </fieldset>
+  
+  <fieldset>
+            <legend>Additional Info</legend>
+            
+            <label for="country">International Travel Experience: </label>
+            <input type="text" name="country" id="country" required><br>
+      
+            <label for="numberofdays">Desired Trip Duration (Days): </label>
+            <select name="numberofdays" id="numberofdays">
+            <option></option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            </select><br>
+      
+            <label for="subject">Preffered Course Subject Matter: </label>
+            <select name="subject" id="subject">
+            <option></option>
+            <option value="Accounting">Accounting</option>
+            <option value="Finance">Finance</option>
+            <option value="Marketing">Marketing</option>
+            <option value="Sales">Sales</option>
+            <option value="Information Systems">Information Systems</option>
+            <option value="Law & Ethics">Law & Ethics</option>
+            <option value="Pubilc Policy">Pubilc Policy</option>
+            </select><br>
+      
+            <label for="itinerary">Additional Comments Regarding International Travel: </label>
+            <textarea name="itinerary" id="itinerary"></textarea><br>
+  </fieldset>
+       
+    
+    <input class="button" type="submit" name="submit" id="submit" value="Submit">
+               
+  </main>
+    
+<footer>
+    <p><a href="">Address</a> | <a href="">Phone Number</a> | <a href="">Email</a></p>
+</footer>    
+</body>
+</html>

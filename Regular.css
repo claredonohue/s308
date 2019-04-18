@@ -1,0 +1,56 @@
+ body{
+            
+            background-color: #a90533;
+        }
+        header{
+            background-color: #a90533;
+            color: whitesmoke;
+            padding-left: 10pt;
+        }
+    
+        nav{
+            border-color: black;
+            background-color: white;
+            border-style: solid;
+            margin: 5pt;
+        }
+        
+        main{
+            background-color: #edebeb;
+            border-color: black;
+            border-style: solid;
+            font-size: 18pt;
+           
+        }
+        
+        footer{
+            background-color: #a90533;
+            color: whitesmoke;
+            text-align: center;
+        }
+        
+        h1{
+            margin-bottom: 0pt;
+            Width: 50%;
+        }
+        
+        p{
+            margin: 5pt;
+            font-size: 16pt;
+         
+        }
+        h2{
+            
+            margin: 5pt;
+        }
+        label{
+            border-color:black;
+            background-color: lightcoral;
+            border-style: solid;
+            border-radius: 10pt;
+            font-size: big;
+            padding: 5pt;
+            margin: 5pt;
+            
+        }
+        Form{margin: 10pt;}
